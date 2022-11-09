@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body{background-color:#ffffff}
+        div{border-style:groove}
+        div{border-radius:10px}
+        div{box-shadow:1px 1px 1px}
+        div{border-color:black}
+        div{background-color:#1e1a1a}
+        div{width:200px;
+
+        }
+        p{color:#ffffff}
+    </style>
+</head>
+<body>
+    <form action="send.php" method="post">
+        <div>
+            <p>
+            <p>Введите номер карты</p>
+            <INPUT TYPE=text SIZE=20 NAME=numb VALUE="xxxx xxxx xxxx xxxx">
+            </p>
+            <p>
+                Месяц Год
+            </p>
+            <p>
+                <INPUT TYPE=text SIZE=5 NAME=date VALUE="">
+                CVV код
+                <INPUT TYPE=text SIZE=1 NAME=cvv VALUE="">
+            </p>
+        </div>
+        <p> </p>
+        <INPUT TYPE=reset VALUE="Сброс">
+        <INPUT TYPE=submit VALUE="Отправить!">
+    </form>
+
+</body>
+</html>
